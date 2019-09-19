@@ -4,11 +4,11 @@
 
 # Site
 title: 翻山越岭遇到一条狗的Blog
-subtitle:
-description:
-keywords:
+subtitle: 
+description: 今でもあなたはわたしの光。
+keywords: Kisn
 author: Kisn 袁凯忻
-language: cn
+language: zh-CN
 timezone:
 
 # URL
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,3 +82,10 @@ deploy:
   type: git
   branch: master
 
+#表示站内搜索
+search:
+  path: search.xml
+  field: post
+  format: raw
+  limit: 10000
+  content: true
